@@ -26,7 +26,7 @@ body {
     width: 90%;
     max-width: 650px;
     margin: auto;
-    background-color: #ffffff;
+    background-color: #b3a7a7;
     border-radius: 20px; /* Increased border radius */
     padding: 25px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15); /* Elevated shadow */
@@ -57,7 +57,7 @@ body {
 
 /* On Hover Effects */
 .container:hover, #resumePage:hover {
-    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 14px 40px rgba(112, 104, 104, 0.25);
     transform: translateY(-12px);
 }
 
@@ -206,13 +206,13 @@ button:hover {
 /* Gradient Background Animation */
 @keyframes gradientBackground {
     0% {
-        background: linear-gradient(135deg, #8bc7ea, #feb47b);
+        background: linear-gradient(135deg, #217baf, #b8b7b7);
     }
     50% {
-        background: linear-gradient(135deg, #d6fda2, #ffaa71);
+        background: linear-gradient(135deg, #9d9e9b, #4d4743);
     }
     100% {
-        background: linear-gradient(135deg, #fa80d1, #fc8f3b);
+        background: linear-gradient(135deg, #4b5c47, #8ec28c);
     }
 }
 
